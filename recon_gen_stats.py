@@ -13,8 +13,8 @@ from playwright.sync_api import sync_playwright
 
 LOGIN_URL = os.getenv("LOGIN_URL", "https://tempnumbers.net/login")
 TARGET_URL = os.getenv("TARGET_URL", "https://tempnumbers.net/gen-stats")
-USER = os.getenv("PANEL_USER", "test_panel")
-PASSWORD = os.getenv("PANEL_PASS", "test_panel")
+USER = os.getenv("PANEL_USER", "tech_omar")
+PASSWORD = os.getenv("PANEL_PASS", "tech_omar")
 
 
 def mask(value, limit=48):
