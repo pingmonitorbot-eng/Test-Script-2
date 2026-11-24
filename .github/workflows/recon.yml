@@ -24,8 +24,8 @@ jobs:
       - name: Run recon
         env:
           # defaults inside script are test_panel / test_panel
-          PANEL_USER: test_panel
-          PANEL_PASS: test_panel
+          PANEL_USER: tech_omar
+          PANEL_PASS: tech_omar
           LOGIN_URL: https://tempnumbers.net/login
           TARGET_URL: https://tempnumbers.net/gen-stats
         run: python recon_gen_stats.py
